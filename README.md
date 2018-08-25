@@ -8,7 +8,7 @@ Sharing in emails?
 
 Typing the urls in browsers?
 
-Now use [copy.js.org](https://copy.js.org) and create short links or qr-codes for your contents and do a scan with your device or share with your friends.
+Now use [cp.js.org](https://cp.js.org) and create short links or qr-codes for your contents and do a scan with your device or share with your friends.
 
 
 ## License
