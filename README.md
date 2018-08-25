@@ -1,4 +1,4 @@
-## copy
+## cp(Copy-Paste)
 
 Copy-Paste contents across the devices or Share with your friends with ease!!
 
