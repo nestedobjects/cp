@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-.ui.icon.input>input {
+.ui.icon.input > input {
   cursor: pointer;
+}
+
+.ui.form textarea:focus {
+  outline: none;
+}
+
+textarea::-moz-selection {
+  color: #000;
+  background: #fff;
+}
+
+textarea::selection {
+  color: #000;
+  background: #fff;
 }
