@@ -93,7 +93,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={styles.body}>
-          <Header as='h2' content='Copy' style={styles.heading} />
+          <Header as='h2' content='cp(Copy-Paste)' style={styles.heading} />
           <Header as='h4' content="Copy paste across the devices with ease" style={styles.heading} />
           <Divider />
           <Form style={styles.areaPadding}>
