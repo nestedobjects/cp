@@ -12,7 +12,8 @@ Now use [cp.js.org](https://cp.js.org) and create short links or qr-codes for yo
 
 ## Supported by
 
-![BrowserStack](https://www.browserstack.com/images/layout/browserstack-logo-600x315.png)
+[![BrowserStack](https://www.browserstack.com/images/layout/browserstack-logo-600x315.png)](https://www.browserstack.com/)
+
 
 ## License
 
