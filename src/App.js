@@ -127,6 +127,9 @@ class App extends Component {
     this.setState({areaContent: e.target.value});
   }
   render() {
+    if(window.location.search.substring(1).includes('redirect=')) {
+      return(<div>Accessing {window.location.search.substring(10)} securely. Please be patient.<br/> If not redirected, click <a href={window.location.search.substring(10)}>here</a>.</div>)
+    }
     return (
       <div className="App" style={styles.body}>
         <Header as="h2" content="cp(Copy-Paste)" style={styles.heading} />
