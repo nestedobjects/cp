@@ -109,6 +109,9 @@ class App extends Component {
       });
   }
   componentWillMount() {
+    if(window.location.search.substring(1).includes('redirect=')) {
+      window.location = window.location.search.substring(10)
+    }
     this.setState({
       areaContent: decodeURIComponent(
         decodeURIComponent(window.location.search.substring(1)),
